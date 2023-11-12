@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    max-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* .Caculator{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} */
+/* .Caculator .display{
+    overflow: auto;
+    font-size: 10vw;
+    text-align: end;
+    height: 25vh;
+    width: 40vw;
+    background-color: #8888;
+} */
+/* .Caculator .keyboard{
+    padding: 2vh 2vw;
+    width: 36vw;
+    height: 71vh;
+}
+.Caculator .row{
+    height: 15vh;
+    width: 40vw;
+} */
+button{
+    background-color: rgb(241, 239, 250);
+    -webkit-tap-highlight-color: rgba(0, 0, 0,0)
+    
+}
+button:active{
+    transform: scale(0.9);
+    
+}
+.Caculator .row:first-child button{
+    background-color: rgb(214, 218, 247);
+}
+.Caculator .row:nth-child(1)  > button:nth-child(1){
+    background-color: rgb(249, 201, 249);
+}
+.Caculator .row button:nth-last-child(1) {
+    background-color: rgb(214, 218, 247);
+}
+button:disabled{
+    background-color: #f1f1f1 !important;
+    cursor: no-drop;
+    /* color: #f1f1f1; */
+}
